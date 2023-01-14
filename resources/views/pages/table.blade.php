@@ -7,6 +7,13 @@
                 <h6>Visitor Table</h6>
             </div>
             <div class="card-body">
+                <div class="d-flex justify-content-around align-items-center">
+                    <img src="{{ asset('/images/schedule.png')}}" width="300" alt="header image" />
+                    <div class="ml-5">
+                        <h5>Data Pengunjung aplikasi</h5>
+                        <p>Berikut adalah data pengunjung aplikasi !Calc, data yang ditampilkan adalah data durasi user dalam menggunakan aplikasi.</p>
+                    </div>
+                </div>
                 <table class="table table-bordered">
                     <thead>
                       <tr>
@@ -43,4 +50,10 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('js')
+    <script>
+        $('.table').DataTable();
+    </script>
 @endsection

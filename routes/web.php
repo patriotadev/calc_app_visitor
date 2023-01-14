@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [VisitorController::class, 'showTable']);
+Route::get('/chart', [VisitorController::class, 'showChart']);

@@ -11,8 +11,8 @@
                 Visitor
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Show Table</a>
-                <a class="dropdown-item" href="#">Show Chart</a>
+                <a class="dropdown-item" href="/">Show Table</a>
+                <a class="dropdown-item" href="/chart">Show Chart</a>
               </div>
             </li>
           </ul>
